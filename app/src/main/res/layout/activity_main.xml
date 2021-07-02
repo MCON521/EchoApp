@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,12 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_margin="@dimen/fab_margin"
-        android:text="copy"
-        android:textColor="@color/design_default_color_on_primary"
         android:backgroundTint="@color/blue"
+        android:text="@string/fab_text"
         android:textAlignment="center"
-        app:iconTint="@color/design_default_color_on_primary"
+        android:textColor="@color/design_default_color_on_primary"
+        app:icon="@drawable/play_icon"
         app:iconGravity="end"
-        app:icon="@drawable/play_icon" />
+        app:iconTint="@color/design_default_color_on_primary" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

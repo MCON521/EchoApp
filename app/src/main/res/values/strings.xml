@@ -4,4 +4,5 @@
     <string name="input_text_view">Please type your text here</string>
     <string name="text_view">Berel Friedman attempt Echo app HW</string>
     <string name="text_input_hint">Ready to tap FAB…</string>
+    <string name="fab_text">copy</string>
 </resources>
